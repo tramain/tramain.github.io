@@ -1,0 +1,583 @@
+body{
+
+
+background:
+
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+font-family: 'Oswald', sans-serif;
+
+}
+
+.logo
+{
+	float: left;
+}
+.nav_menu{
+	float: right;
+}
+
+img{
+  max-height: 100%;
+  max-width: 100%; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+	text-align: center;
+}
+
+
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+
+.hexagon_1 {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #f0e6e6;
+  margin: 28.87px 0;
+}
+
+.hexagon_1:before,
+.hexagon_1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon_1:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #f0e6e6;
+}
+
+
+.hexagon_2 {
+  position: relative;
+  width: 400px; 
+  height: 230.94px;
+  background-color: #7d41ef;
+  margin: 135.47px 400px;
+}
+
+.hexagon_2:before,
+.hexagon_2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+}
+
+.hexagon_2:before {
+  bottom: 100%;
+  border-bottom: 115.47px solid #7d41ef;
+}
+
+.hexagon_2:after {
+  top: 100%;
+  width: 0;
+  border-top: 115.47px solid #7d41ef;
+}
+
+.hexagon_2 {
+  position: relative;
+  width: 400px; 
+  height: 230.94px;
+  background-color: #7d41ef;
+  margin: 135.47px 400px;
+}
+
+.hexagon_2:before,
+.hexagon_2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+}
+
+.hexagon_2:before {
+  bottom: 100%;
+  border-bottom: 115.47px solid #7d41ef;
+}
+
+.hexagon_2:after {
+  top: 100%;
+  width: 0;
+  border-top: 115.47px solid #7d41ef;
+}
+
+/* hex 2a */
+
+
+.hexagon_2a {
+  position: relative;
+  width: 200px;
+  top: -320px;
+  left: 820px; 
+  height: 115.47px;
+  margin: 57.74px 0;
+  background-image: url(http://i.imgur.com/nSyodSC.jpg);
+  background-size: auto 221.7025px;
+  background-position: center;
+  border-left: solid 4px #7d41ef;
+  border-right: solid 4px #7d41ef;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 25.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 192.0000px;
+  height: 110.85125168440815px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-55.4256px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-55.4256px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-55.4256px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+  border-top: solid 5.6569px #7d41ef;
+  border-right: solid 5.6569px #7d41ef;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+  border-bottom: solid 5.6569px #7d41ef;
+  border-left: solid 5.6569px #7d41ef;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon_2a:after {
+  content: "";
+  position: absolute;
+  top: 2.3094px;
+  left: 0;
+  width: 192.0000px;
+  height: 110.8513px;
+  z-index: 2;
+  background: inherit;
+}
+
+/* skills hex */
+
+.hexagon_3 {
+  position: relative;
+  width: 500px; 
+  height: 288.68px;
+  background-color: #7d89b3;
+  margin: -164.34px 100px;
+}
+
+.hexagon_3:before,
+.hexagon_3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+}
+
+.hexagon_3:before {
+  bottom: 100%;
+  border-bottom: 144.34px solid #7d89b3;
+}
+
+.hexagon_3:after {
+  top: 100%;
+  width: 0;
+  border-top: 144.34px solid #7d89b3;
+}
+
+/* portfolio hex */
+
+.hexagon_4 {
+  position: relative;
+  width: 700px; 
+  height: 404.15px;
+  background-color: #df5154;
+  margin: 372.07px 300px;
+}
+
+.hexagon_4:before,
+.hexagon_4:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 350px solid transparent;
+  border-right: 350px solid transparent;
+}
+
+.hexagon_4:before {
+  bottom: 100%;
+  border-bottom: 202.07px solid #df5154;
+}
+
+.hexagon_4:after {
+  top: 100%;
+  width: 0;
+  border-top: 202.07px solid #df5154;
+}
+
+/* contact hex */
+
+.hexagon_5 {
+  position: relative;
+  width: 300px;
+  top: -100px; 
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: -36.60px 200px;
+}
+
+.hexagon_5:before,
+.hexagon_5:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon_5:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon_5:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
+
+/* contact hexes */
+
+
+div.facebook{
+      position: relative;
+    left: 600px;
+    top: -465px;
+}
+
+div.email{
+      position: relative;
+    left: 800px;
+    top: -200px;
+}
+
+div.linkedin{
+      position: relative;
+    left: 600px;
+    top: -467px;
+}
+
+div.instagram{
+      position: relative;
+    left: 800px;
+    top: -200px;
+}
+
+/*
+
+
+
+Responsive for smaller screens below
+
+
+
+
+
+*/
+
+@media screen and (max-width: 1030px) {
+
+.logo
+{
+	float: inherit;
+
+}
+.nav_menu{
+	float: inherit;
+}
+	
+.hexagon_5 {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #64C7CC;
+  margin: 1.60px 0px;
+}
+
+.hexagon_5:before,
+.hexagon_5:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon_5:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #64C7CC;
+}
+
+.hexagon_5:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #64C7CC;
+}
+.hexagon_1 {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #f0e6e6;
+  margin: 50.87px 0;
+}
+
+.hexagon_1:before,
+.hexagon_1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon_1:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #f0e6e6;
+}
+
+
+
+.hexagon_2 {
+  position: relative;
+  width: 400px; 
+  height: 230.94px;
+  background-color: #7d41ef;
+  margin: 100px 0px;
+}
+
+.hexagon_2:before,
+.hexagon_2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+}
+
+.hexagon_2:before {
+  bottom: 100%;
+  border-bottom: 115.47px solid #7d41ef;
+}
+
+.hexagon_2:after {
+  top: 100%;
+  width: 0;
+  border-top: 115.47px solid #7d41ef;
+}
+
+/* hex 2a */ 
+
+.hexagon_2a {
+  position: relative;
+  width: 200px;
+  top: -320px;
+  left: 420px; 
+  height: 115.47px;
+  margin: 57.74px 0;
+  background-image: url(http://i.imgur.com/nSyodSC.jpg);
+  background-size: auto 221.7025px;
+  background-position: center;
+  border-left: solid 4px #7d41ef;
+  border-right: solid 4px #7d41ef;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 25.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 192.0000px;
+  height: 110.85125168440815px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-55.4256px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-55.4256px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-55.4256px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+  border-top: solid 5.6569px #7d41ef;
+  border-right: solid 5.6569px #7d41ef;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+  border-bottom: solid 5.6569px #7d41ef;
+  border-left: solid 5.6569px #7d41ef;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon_2a:after {
+  content: "";
+  position: absolute;
+  top: 2.3094px;
+  left: 0;
+  width: 192.0000px;
+  height: 110.8513px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hexagon_4 {
+  position: relative;
+  width: 700px; 
+  height: 404.15px;
+  background-color: #df5154;
+  margin: 300.07px 0px;
+}
+
+.hexagon_4:before,
+.hexagon_4:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 350px solid transparent;
+  border-right: 350px solid transparent;
+}
+
+.hexagon_4:before {
+  bottom: 100%;
+  border-bottom: 202.07px solid #df5154;
+}
+
+.hexagon_4:after {
+  top: 100%;
+  width: 0;
+  border-top: 202.07px solid #df5154;
+}
+.hexagon_3 {
+  position: relative;
+  width: 500px; 
+  height: 288.68px;
+  background-color: #7d89b3;
+  margin: 50.34px 0px;
+}
+
+.hexagon_3:before,
+.hexagon_3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+}
+
+.hexagon_3:before {
+  bottom: 100%;
+  border-bottom: 144.34px solid #7d89b3;
+}
+
+.hexagon_3:after {
+  top: 100%;
+  width: 0;
+  border-top: 144.34px solid #7d89b3;
+}
+
+div.facebook{
+      position: relative;
+    left: 450px;
+    top: -465px;
+}
+
+div.email{
+      position: relative;
+    left: 450px;
+    top: -200px;
+}
+
+div.linkedin{
+      position: relative;
+    left: 320px;
+    top: -467px;
+}
+
+div.instagram{
+      position: relative;
+    left: 320px;
+    top: -200px;
+}
+
+}
